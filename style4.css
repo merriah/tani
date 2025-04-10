@@ -1,0 +1,109 @@
+/* Writing CSS Page */ /*Skipped the photography page because I tried to do a gallery layout, it broke my navbar so bad the line just extened into infinity and I had to scrap that copy and switch to a eariler copy (this one) and redo some stuff. Nearly had a panic attack*/
+
+
+body {background-color: #1f1f1f;}
+
+@font-face {font-family: 'GlacialIndifference-Regular';
+src: url(GlacialIndifference-Regular.otf);
+font-weight: normal;
+font-style: normal;}
+
+@font-face {font-family: 'Allura-Regular';
+src: url(Allura-Regular.otf);
+font-weight: normal;
+font-style: normal;}
+
+
+
+
+.solemnland {font-family: 'Allura-Regular';
+font-size: 50px;
+margin: 6;
+color: #f5a406;
+line-height: 0;}
+
+h2 {font-family: 'GlacialIndifference-Regular' ;
+font-size: 10px;
+margin: 10;
+color: white;
+line-height: 0;
+text-indent: 65px;
+position: relative; top:-22px;}
+
+.container {position: relative;
+text-align: center;
+color: white;
+font-size: 0px;}
+
+.banner {width: 100%;
+height: auto;}
+
+.top-left {position: absolute;
+top: 16px;
+left: 16px;}
+
+h1 {font-size: 100px;
+color: #f5a406;}
+h2 {font-size: 13px;}
+
+.second {position: absolute;
+top: 140px;
+left: 50px;}
+
+
+.navbar {background-color: black;
+overflow: auto;
+height: 70px;}
+
+.navbar ul li {display: inline;
+margin-left: auto;
+margin-right: auto;}
+
+.navbar a {margin-bottom: 0px;
+padding: 110px;
+color: white;
+text-decoration: none;
+font-size: 25px;
+width: 20%; 
+text-align: center;
+font-family: 'GlacialIndifference-Regular' }
+
+
+
+.navbar a:hover {background-color: #f5a406;
+text-decoration: underline;
+color: white;}
+
+.navbar a:active {background-color: #f5a406;
+text-decoration: underline;}
+
+
+h3 {font-family: 'GlacialIndifference-Regular'; /*positioning was mercifully simple on this page*/
+color: #f5a406;
+font-size: 25px;
+margin-left: 15%;
+padding-top: 8%;}
+
+/*Writing out all the poems in HTML looks super funny with all the line breaks*/
+
+p {font-family: 'GlacialIndifference-Regular'; /*kept it super minimalistic, I think it suits the poetry better*/
+color: white;
+font-size: 20px;
+text-decoration: none;
+margin-left: 18%;
+padding-bottom: 8%;
+line-height: 1.5;}
+
+
+
+.footer {background-color: black; /*the text in the footer is perfectly centered, you do not see an alignment error I do not know how to fix*/
+font-family: 'GlacialIndifference-Regular';
+color: white;
+padding: 50px;
+text-align: center;
+font-size: 16px;
+position: relative;
+top: 250px;
+height: 90px;}
+
+

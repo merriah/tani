@@ -1,0 +1,129 @@
+/* About CSS Page */ /*multiple CSS pages because certain div classes didn't want to work when I put them all in one page*/
+
+body {background-color: #1f1f1f;}
+
+@font-face {font-family: 'GlacialIndifference-Regular';
+src: url(GlacialIndifference-Regular.otf);
+font-weight: normal;
+font-style: normal;}
+
+@font-face {font-family: 'Allura-Regular';
+src: url(Allura-Regular.otf);
+font-weight: normal;
+font-style: normal;}
+
+
+
+.solemnland {font-family: 'Allura-Regular';
+font-size: 50px;
+margin: 6px;
+color: #f5a406;
+line-height: 0;}
+
+h2 {font-family: 'GlacialIndifference-Regular' ;
+font-size: 10px;
+margin: 10px;
+color: white;
+line-height: 0;
+text-indent: 65px;
+position: relative; top:-22px;}
+
+.container {position: relative;
+text-align: center;
+color: white;
+font-size: 0px;}
+
+.banner {width: 100%;
+height: auto;}
+
+.top-left {position: absolute;
+top: 16px;
+left: 16px;}
+
+h1 {font-size: 100px;
+color: #f5a406;}
+
+h2 {font-size: 13px;}
+
+.second {position: absolute;
+top: 140px;
+left: 50px;}
+
+
+.navbar {background-color: black;
+overflow: auto;
+height: 70px;}
+
+.navbar ul li {display: inline;
+margin-left: auto;
+margin-right: auto;}
+
+.navbar a {margin-bottom: 0px; /*for some reason the nav box spacing is much better on every page that isn't the home page*/
+padding: 110px;
+color: white;
+text-decoration: none;
+font-size: 25px;
+width: 20%; 
+text-align: center;
+font-family: 'GlacialIndifference-Regular' }
+
+
+
+.navbar a:hover {background-color: #f5a406;
+text-decoration: underline;}
+
+.navbar a:active {background-color: #f5a406;
+text-decoration: underline;}
+
+.greyback {position: relative;
+text-align: center;}
+
+.back {width: 100%;
+height: auto;}
+
+.portrait {position: absolute;
+bottom: 0px;
+left: 2px;}
+
+.inter {position: absolute; /*luckily I already figured out how to do this with the homepage banner*/
+bottom: 100px;
+left: 550px;
+font-family: 'GlacialIndifference-Regular';
+color: white;
+text-align: center;
+font-size: 25px;
+width: 850px;
+line-height: 1.5;}
+
+h3 {font-family: 'GlacialIndifference-Regular';
+color: #f5a406;
+font-size: 25px;
+margin-left: 50px;
+width: 90%;} /*keeping the style nice and simple with a splash of orange*/
+
+.answer {font-family: 'GlacialIndifference-Regular';
+color: white;
+font-size: 20px;
+margin-left: 80px;
+width: 90%;} 
+
+.blurb {font-family: 'GlacialIndifference-Regular';
+color: white;
+font-size: 14px;
+text-align: center;
+margin-left: 50px;
+margin-bottom: 30px;
+padding: 30px;}
+
+
+
+
+
+.footer {background-color: black;
+font-family: 'GlacialIndifference-Regular';
+color: white;
+padding: 40px;
+text-align: center;
+font-size: 16px;}
+
+

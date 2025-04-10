@@ -1,0 +1,126 @@
+/* Contact CSS Page */
+
+
+body {background-color: #1f1f1f;}
+
+@font-face {font-family: 'GlacialIndifference-Regular';
+src: url(GlacialIndifference-Regular.otf);
+font-weight: normal;
+font-style: normal;}
+
+@font-face {font-family: 'Allura-Regular';
+src: url(Allura-Regular.otf);
+font-weight: normal;
+font-style: normal;}
+
+
+
+
+.solemnland {font-family: 'Allura-Regular';
+font-size: 50px;
+margin: 6;
+color: #f5a406;
+line-height: 0;}
+
+h2 {font-family: 'GlacialIndifference-Regular' ;
+font-size: 10px;
+margin: 10;
+color: white;
+line-height: 0;
+text-indent: 65px;
+position: relative; top:-22px;}
+
+.container {position: relative;
+text-align: center;
+color: white;
+font-size: 0px;}
+
+.banner {width: 100%;
+height: auto;}
+
+.top-left {position: absolute;
+top: 16px;
+left: 16px;}
+
+h1 {font-size: 100px;
+color: #f5a406;}
+h2 {font-size: 13px;}
+
+.second {position: absolute;
+top: 140px;
+left: 50px;}
+
+
+.navbar {width: 154%;
+background-color: black;
+overflow: auto;
+height: 70px;}
+
+.navbar ul li {display: inline;
+margin-left: auto;
+margin-right: auto;}
+
+.navbar a {margin-bottom: 0px;
+padding: 110px;
+color: white;
+text-decoration: none;
+font-size: 25px;
+width: 20%; 
+text-align: center;
+font-family: 'GlacialIndifference-Regular' }
+
+
+
+
+.navbar a:hover {background-color: #f5a406;
+text-decoration: underline;
+color: white;}
+
+.navbar a:active {background-color: #f5a406;
+text-decoration: underline;}
+
+/*very simple contact page I considered putting them in the headers originally but the headers turned into such a headache I abandoned that idea pretty quick*/
+
+
+.column {width: 18%; /*sketchy HTML column coding at best, still was a bit traumatized from the gallery incident*/
+padding: 5px;
+display: block;
+display: inline-block;
+margin-left: 13.5%;
+margin-top: 16%;}
+
+.row::after {content: ""; /*got this from CSS school, inline-block is the lifeblood of this project, it's saved me so many times*/
+clear: both;
+display: inline-block;
+width: 100%;}
+
+
+p {font-family: 'GlacialIndifference-Regular';
+color: white;
+font-size: 20px;
+text-decoration: none;
+text-align: center;
+padding-top: 8%;}
+
+
+a {font-family: 'GlacialIndifference-Regular';
+color: white;
+font-size: 20px;
+text-decoration: none;}
+
+a:hover {color: #f5a406;
+text-decoration: underline;}
+
+
+.footer {background-color: black;
+font-family: 'GlacialIndifference-Regular';
+color: white;
+padding: 30px;
+text-align: center;
+font-size: 16px;
+position: relative;
+top: 300px;}
+
+
+/*It's a bit sketchy and spaghetti code, but I'm pretty happy with how it turned out. I could've made it a lot simpler but where's the fun in that. A lot of this was just messing around to see if I could actually do it. Hope you enjoyed!*/
+

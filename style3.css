@@ -1,0 +1,190 @@
+/* Music CSS Page */
+
+
+body {background-color: #1f1f1f;}
+
+@font-face {font-family: 'GlacialIndifference-Regular';
+src: url(GlacialIndifference-Regular.otf);
+font-weight: normal;
+font-style: normal;}
+
+@font-face {font-family: 'Allura-Regular';
+src: url(Allura-Regular.otf);
+font-weight: normal;
+font-style: normal;}
+
+
+
+
+.solemnland {font-family: 'Allura-Regular';
+font-size: 50px;
+margin: 6;
+color: #f5a406;
+line-height: 0;}
+
+h2 {font-family: 'GlacialIndifference-Regular' ;
+font-size: 10px;
+margin: 10;
+color: white;
+line-height: 0;
+text-indent: 65px;
+position: relative; top:-22px;}
+
+.container {position: relative;
+text-align: center;
+color: white;
+font-size: 0px;}
+
+.banner {width: 100%;
+height: auto;}
+
+.top-left {position: absolute;
+top: 16px;
+left: 16px;}
+
+h1 {font-size: 100px;
+color: #f5a406;}
+h2 {font-size: 13px;}
+
+.second {position: absolute;
+top: 140px;
+left: 50px;}
+
+
+.navbar {background-color: black;
+overflow: auto;
+height: 70px;}
+
+.navbar ul li {display: inline;
+margin-left: auto;
+margin-right: auto;}
+
+.navbar a {margin-bottom: 0px;
+padding: 110px;
+color: white;
+text-decoration: none;
+font-size: 25px;
+width: 20%; 
+text-align: center;
+font-family: 'GlacialIndifference-Regular' }
+
+
+
+
+.navbar a:hover {background-color: #f5a406;
+text-decoration: underline;}
+
+.navbar a:active {background-color: #f5a406;
+text-decoration: underline;}
+
+.review {font-family: 'GlacialIndifference-Regular';
+color: white;
+font-size: 20px;
+text-align: center;
+margin-left: 120px;
+margin-bottom: 30px;
+padding: 70px;
+width: 75%;
+line-height: 1.5;}
+
+.review a {font-family: 'GlacialIndifference-Regular';
+color: white;
+font-size: 20px;
+text-decoration: none;}
+
+.review a:hover {color: #f5a406;
+text-decoration: underline;} 
+
+.album1 {position: absolute; /*got this music idea off of HTML school, the HTML was actually really simple to put together, super similar to images with the pathing and stuff*/
+left: 25%;
+padding bottom: 15%;}
+
+.clear {position: relative; /*positioning the albums and text was awful, had to start over with percentages because I opened it on a desktop and all the spacing was wrong. Making an adptaive website was too hard so it might not look perfect on your screen but everything is actually centered for my laptop*/
+left: 53%;
+top: 0%;
+font-family: 'GlacialIndifference-Regular';
+color: #f5a406;
+font-size: 20px;}
+
+.music1 {position: relative;
+font-family: 'GlacialIndifference-Regular';
+color: white;
+font-size: 16px;
+text-decoration: none;
+left: 53%;
+top: 0%;}
+
+/*some of the music files were too big for GitHub so I had to leave them out*/
+
+.album2 {position: absolute;
+left: 25%;}
+
+.wait {position: relative;
+left: 53%;
+top: 0%;
+font-family: 'GlacialIndifference-Regular';
+color: #f5a406;
+font-size: 20px;}
+
+.music2 {font-family: 'GlacialIndifference-Regular';
+color: white;
+font-size: 16px;
+text-decoration: none;
+position: relative;
+left: 53%;
+top: 0%;
+width: 40%;
+padding-bottom: 5%;}
+
+
+
+.album3 {position: absolute;
+left: 25%;
+padding-bottom: 15%;}
+
+.jan {position: relative;
+left: 53%;
+top: 0%;
+font-family: 'GlacialIndifference-Regular';
+color: #f5a406;
+font-size: 20px;}
+
+.music3 {font-family: 'GlacialIndifference-Regular';
+color: white;
+font-size: 16px;
+text-decoration: none;
+position: relative;
+left: 53%;
+top: 0%;
+width: 40%;
+padding-bottom: 15%;}
+
+
+
+.album4 {position: absolute; /*juggling the positions was hard because sometimes they don't work and if you juts delete it and rewrite the exact same thing it will work. Codings just like that I guess :( */
+left: 25%;}
+
+.north {position: relative;
+left: 53%;
+top: 200%;
+font-family: 'GlacialIndifference-Regular';
+color: #f5a406;
+font-size: 20px;}
+
+.music4 {font-family: 'GlacialIndifference-Regular';
+color: white;
+font-size: 16px;
+text-decoration: none;
+position: relative;
+left: 53%;
+top: 0%;
+width: 40%;}
+
+.footer {background-color: black;
+font-family: 'GlacialIndifference-Regular';
+color: white;
+padding: 40px;
+text-align: center;
+font-size: 16px;
+position: relative;
+top: 700px;}
